@@ -1,0 +1,49 @@
+/* NEW FILE */
+
+:root {
+  --opacity: 0;
+}
+
+#parachute-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 15%;
+  justify-content: center;
+  align-items: center;
+}
+
+#parachute {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.parachute-row {
+  text-align: center;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 5px;
+  border: black 2px;
+}
+
+parachute-tile {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  border: 2px grey dotted;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  z-index: 2;
+  /* color: white; */
+}
+
+.cover {
+  background-color: white;
+}
